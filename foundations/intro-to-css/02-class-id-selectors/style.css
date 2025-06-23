@@ -1,0 +1,24 @@
+.odd {
+    background-color: #ffa8b5;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#second {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+/* 
+    rather than setting {font-size: 24px;} in multiple places
+    the "third" class was changed to "adj-font-size" 
+    now it can be used to set the font size in both the 3rd and 4th elements
+*/
+
+.adj-font-size {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: hsl(120, 75%, 75%);
+    font-weight: bold;
+}
